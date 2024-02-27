@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #6E6E6E;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  height: 100px;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style-type: none;
+  padding-right: 200px;
+}
+header ul li {
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
+header ul li:hover {
+  color: #BAFF39;
+}
+header #logo {
+  color: #BAFF39;
+  padding-left: 200px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#main {
+  background-image: url(../img/pozadina.jpg);
+  width: 100%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+#main #slika {
+  text-align: center;
+  padding-top: 110px;
+}
+#main #slika #kvadrat {
+  width: 500px;
+  border-radius: 10px;
+}
+#main #dugmici {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#main #dugmici .malo-dugme {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px, rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  z-index: 0;
+}
+
+#o-meni {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  height: 500px;
+}
+#o-meni #levideo {
+  width: 40%;
+}
+#o-meni #levideo hr {
+  width: 20%;
+}
+#o-meni #desnideo #prvired i {
+  font-size: 200px;
+  padding: 10px;
+}
+#o-meni #desnideo #prvired i:hover {
+  color: green;
+}
+
+#projekti {
+  height: 800px;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  margin-top: 50px;
+}
+#projekti h2 {
+  text-align: center;
+}
+#projekti #drzac {
+  display: flex;
+  flex-direction: column;
+}
+#projekti #drzac #pred {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#projekti #drzac #pred img {
+  width: 500px;
+  padding: 10px;
+}
+#projekti #drzac #pred img:hover {
+  border: 1px solid #BAFF39;
+}
+#projekti #drzac #pdrugired {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#projekti #drzac #pdrugired img {
+  width: 500px;
+  padding: 10px;
+}
+#projekti #drzac #pdrugired img:hover {
+  border: 1px solid #BAFF39;
+}
+
+#skillovi {
+  padding-top: 30px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  background-color: #0B081D;
+}
+#skillovi hr {
+  width: 20%;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-color: #BAFF39;
+}
+#skillovi #naslovskill {
+  color: #BAFF39;
+  text-align: center;
+}
+#skillovi #naslovskill .vecinaslov {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+#skillovi .podnaslov {
+  color: #BAFF39;
+}
+#skillovi #prvekartice {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+#skillovi #prvekartice .kartica {
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 20%;
+  text-align: center;
+}
+#skillovi #prvekartice .kartica h3 {
+  font-weight: 400;
+}
+#skillovi #prvekartice .kartica .linija {
+  width: 100px;
+  border-color: #BAFF39;
+}
+
+#novimain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0B081D;
+  width: 100%;
+  height: 1000px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  z-index: 10;
+  margin-top: -100px;
+}
+#novimain #desnoslika {
+  width: 30%;
+}
+#novimain #desnoslika img {
+  width: 600px;
+  border: 5px solid #01D284;
+  border-radius: 50%;
+}
+#novimain #desnoslika img:hover {
+  border: none;
+}
+#novimain #levonaslov {
+  width: 30%;
+  line-height: normal;
+}
+#novimain #levonaslov h1 {
+  font-size: 55px;
+  line-height: 1.2;
+}
+#novimain #levonaslov #glavnodugme {
+  margin-top: 20px;
+  align-items: center;
+  background-image: linear-gradient(144deg, #51bd96, #01D284 50%, #8cde87);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#kontakt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+  background-color: #0B081D;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+#kontakt #mreze i {
+  padding: 40px;
+}
+#kontakt #mreze i:hover {
+  color: #01D284;
+}
+#kontakt #mreze {
+  margin-right: 120px;
+  display: flex;
+  flex-direction: column;
+}
+#kontakt #informacije i {
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
+#kontakt #forma form {
+  display: flex;
+  flex-direction: column;
+}
+#kontakt #forma form .posalji {
+  margin-top: 20px;
+  align-items: center;
+  background-image: linear-gradient(144deg, #51bd96, #01D284 50%, #8cde87);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 20px;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+#kontakt #forma form label {
+  text-align: center;
+}
+
+.tekstpolje {
+  width: 500px;
+  height: 30px;
+  font-size: larger;
+  padding: 10px 0px;
+  margin-bottom: 20px;
+}
+.tekstpolje:focus {
+  border: 4px solid #01D284;
+}
+
+textarea {
+  width: 500px;
+  height: 200px;
+  resize: none;
+  font-size: 20px;
+}
+textarea:focus {
+  border: 4px solid #01D284;
+}/*# sourceMappingURL=style.css.map */

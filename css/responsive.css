@@ -1,0 +1,212 @@
+@media only screen and (max-width: 600px){
+    header ul{
+        display: none;
+    }
+    header {
+        justify-content: center;
+    }
+    #logo{
+        padding-left: 0px;
+        padding: 0px !important;
+        text-align: center;
+    }
+   #desnoslika{
+    display: block;
+    width: 50px;
+   }
+   #novamalaslika{
+    width: 50px;
+   }
+   #novimain #desnoslika img{
+    width: 250px;
+   }
+   #novimain #desnoslika {
+    width: 100%;
+    text-align: center;
+    margin-top: 66px;
+   }
+   #novimain{
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   #novimain #levonaslov {
+    width: 90%;
+    text-align: center;
+   }
+   #glavnodugme{
+    text-align: center;
+    margin: 0px auto;
+   }
+   /* O MENI SEKCIJA */
+   #o-meni{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1000px;
+   }
+   #hrmali{
+    text-align: center;
+    margin: 0px auto;
+   }
+   #o-meni #levideo {
+    width: 90%;
+    text-align: center;
+   }
+   #prvired{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   }
+   #prvired i {
+    margin: 100px;
+   }
+
+   /* SKILLOVI SEKCIJA */
+   #skillovi{
+    height: 900px;
+   }
+   #skillovi #prvekartice{
+    flex-direction: column;
+   }
+
+   /* PROJEKTI SEKCIJA */
+
+   #projekti{
+    height: 1000px;
+   }
+   #pdrugired{
+    display: none;
+   }
+   #projekti #drzac #pdrugired{
+    display: none;
+   }
+   #projekti #drzac #pred{
+    flex-direction: column;
+    margin: 0px auto;
+   }
+
+   /* KONTAKT SEKCIJA */
+
+   #kontakt{
+    flex-direction: column;
+    height: 800px;
+   }
+   #kontakt #mreze{
+    margin-right: 0px;
+   }
+   #informacije{
+    margin-top: 30px;
+    text-align: center;
+   }
+
+}
+
+@media only screen and (max-width: 992px){
+    header ul{
+        display: none;
+    }
+    #logo{
+        text-align: center;
+        padding-left: 0px !important;
+        margin: 0px auto;
+    }
+
+
+    #novimain{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #novimain #levonaslov {
+        width: 100%;
+        margin-top: 40px;
+        padding: 30px;
+    }
+    #novimain #levonaslov #glavnodugme{
+        text-align: center;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+    #novimain #desnoslika {
+        width: 100%;
+    }
+    #novimain #desnoslika img {
+        width: 400px;
+    }
+
+
+
+
+
+    #o-meni{
+        flex-direction: column;
+    }
+    #o-meni #levideo {
+        width: 80%;
+    }
+    #o-meni #desnideo #prvired i {
+        font-size: 150px;
+    }
+
+
+
+    #skillovi{
+        height: 800px;
+    }
+    #skillovi #prvekartice{
+        flex-direction: column;
+    }
+
+
+    #projekti #drzac #pdrugired{
+        display: none;
+    }
+    #projekti #drzac #pred{
+        flex-direction: column;
+        margin: 0px auto;
+    }
+
+
+    #kontakt{
+        flex-direction: column;
+        height: 900px;
+    }
+    #kontakt #mreze{
+        margin-right: 0px !important;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1200px){
+    #novimain #desnoslika img{
+        width: 400px;
+    }
+    #novimain #levonaslov {
+        width: 40%;
+    }
+    #o-meni #desnideo #prvired i {
+        font-size: 150px;
+    }
+    #projekti #drzac #pdrugired{
+        display: none;
+    }
+    #projekti #drzac #pred{
+        flex-direction: column;
+        margin: 0px auto;
+    }
+
+    #kontakt{
+        flex-direction: column;
+    }
+    #kontakt #mreze{
+        flex-direction: row;
+        margin-right: 0px;
+    }
+}
