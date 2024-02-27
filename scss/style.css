@@ -306,7 +306,7 @@ header #logo {
 }
 
 .tekstpolje {
-  width: 500px;
+  width: 100%;
   height: 30px;
   font-size: larger;
   padding: 10px 0px;
@@ -317,7 +317,7 @@ header #logo {
 }
 
 textarea {
-  width: 500px;
+  width: 100%;
   height: 200px;
   resize: none;
   font-size: 20px;
