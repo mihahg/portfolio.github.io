@@ -94,6 +94,9 @@
     flex-direction: column;
     margin: 0px auto;
    }
+    #projekti #drzac #pred img{
+    width: 80% !important;
+   }
 
    /* KONTAKT SEKCIJA */
 
