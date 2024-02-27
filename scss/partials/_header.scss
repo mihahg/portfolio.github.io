@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #6E6E6E;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    height: 100px;
+    align-items: center;
+
+ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 200px;
+    li{
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        
+        a{
+            text-decoration: none;
+            color: white;
+            &:hover{
+                color: #01D284;;
+            }
+        }
+    }
+}
+#logo{
+    color: #01D284;
+    padding-left: 200px;
+
+}
+}

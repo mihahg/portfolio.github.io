@@ -1,0 +1,392 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #6E6E6E;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    height: 100px;
+    align-items: center;
+
+ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 200px;
+    li{
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        
+        a{
+            text-decoration: none;
+            color: white;
+            &:hover{
+                color: #01D284;;
+            }
+        }
+    }
+}
+#logo{
+    color: #01D284;
+    padding-left: 200px;
+
+}
+}
+#futer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    background-color: $pozadina;
+    height: 600px;
+    color: white;
+
+    #futernaslov h2{
+        text-align: center;
+        color: #01D284;
+        font-size: 50px;
+    }
+    hr{
+        width: 250px;
+        border-color: white;
+        text-align: center;
+        margin: 0px auto;
+    }
+    #futerdrzac{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 5%;
+
+        #futerlevo{
+            padding-left: 10%;
+        }
+        #futerdesno{
+            padding-right: 10%;
+        }
+
+        #futerlevo h3{
+            padding: 10px;
+            font-size: 20px;
+        }
+        #futerdesno{
+            #ime, #prezime{
+                &::placeholder{
+                    color: white;
+                }
+                width: 49%;
+                padding: 15px;
+                background-color: rgba(11, 8, 29, 0.66);
+                border-radius: 5px;
+                border-bottom: 1px solid #01D284;
+                color: white;
+                transition: 200ms all;
+            }
+            #email{
+                &::placeholder{
+                    color: white;
+                }
+                width: 100%;
+                padding: 15px;
+                background-color: rgba(11, 8, 29, 0.66);
+                border-radius: 5px;
+                border: none;
+                border-bottom: 1px solid #01D284;
+                color: white;
+                transition: 200ms all;
+            }
+            #poruka{
+                &::placeholder{
+                    color: white;
+                    font-size: 20px;
+                }
+                width: 100%;
+                height: 200px;
+                color: #f2f3f7;
+                padding: 15px;
+                background-color: rgba(11, 8, 29, 0.66);
+                border-radius: 5px;
+                border: none;
+                border-bottom: 1px solid #01D284;
+                color: #f2f3f7;
+                transition: 200ms all;
+            }
+            #submitdugme{
+            margin-top: 20px;
+            margin: 0px auto;
+            align-items: center;
+            text-align: center;
+            background-image: linear-gradient(144deg,#51bd96, #01D284 50%, #8cde87);
+            border: 0;
+            border-radius: 8px;
+            box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            display: flex;
+            font-size: 15px;
+            justify-content: center;
+            line-height: 1em;
+            max-width: 100%;
+            min-width: 100px;
+            padding: 19px 24px;
+            text-decoration: none;
+            cursor: pointer;
+            }
+        }
+    }
+
+}
+#donjifuter{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+    #ikonicefuter i{
+        padding: 10px;
+        &:hover{
+            color: #01D284;
+        }
+    }
+    #ikonicefuter{
+        padding-left: 10%;
+    }
+    #ikonicefuter a{
+        text-decoration: none;
+        color: white;
+    }
+    #copyright{
+        padding-right: 10%;
+    }
+}
+#novimain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $pozadina;
+    width: 100%;
+    height: 1000px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    z-index: 10;
+    margin-top: -100px;
+
+    #desnoslika{
+    width: 30%;
+    img{
+        width: 600px;
+        border: 5px solid #01D284;
+        border-radius: 50%;
+        &:hover{
+            border: none;
+        }
+    }
+}
+    #levonaslov{
+        width: 30%;
+        line-height: normal;
+
+        h1{
+            font-size: 55px;
+            line-height: 1.2;
+        }
+
+        #glavnodugme{
+            margin-top: 20px;
+            align-items: center;
+            background-image: linear-gradient(144deg,#51bd96, #01D284 50%, #8cde87);
+            border: 0;
+            border-radius: 8px;
+            box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            line-height: 1em;
+            max-width: 100%;
+            min-width: 140px;
+            padding: 19px 24px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+}
+#noviprojekti{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    max-width: 100%;
+    height: 559px;
+    font-family: "Poppins", sans-serif;
+
+    #projektinaslov h2{
+        text-align: center;
+    }
+
+    #drzackartica{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .karticered{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .karticaprojekat img {
+            max-width: 450px;
+            width: 450px;
+            padding: 10px;
+            &:hover{
+                position: relative;
+                bottom: 5px;
+                border: 1px solid #01D284;
+                border-top: none;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+#o-meni{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  height: 500px;
+  #levideo{
+    width: 40%;
+    hr{
+      width: 20%;
+    }  
+  }
+  #desnideo{
+    #prvired{
+      i{
+        font-size: 200px;
+        padding: 10px;
+        &:hover{
+          color: green;
+        }
+      }
+    }
+  }
+}
+#projekti{
+    height: 800px;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    margin-top: 50px;
+    h2{
+        text-align: center;
+    }
+    #drzac{
+        display: flex;
+        flex-direction: column;
+        #pred{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            img{
+                width: 500px;
+                padding: 10px;
+                &:hover{
+                    border: 1px solid #BAFF39;
+                   }
+             
+            }
+        }
+        #pdrugired{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            img{
+                width: 500px;
+                padding: 10px;
+                &:hover{
+                 border: 1px solid #BAFF39;
+                }
+            }
+        }
+    }
+}
+#skillovi{
+    padding-top: 30px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background-color: $pozadina;
+ 
+    hr{
+        width: 20%;
+        text-align: center;
+        margin: 0px auto;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        border-color: #BAFF39;
+    }
+    #naslovskill{
+        color: #BAFF39;
+        text-align: center;
+
+        .vecinaslov{
+            color: white;
+            font-weight: 700;
+            font-size: 30px;
+        }
+    }
+    .podnaslov{
+        color: #BAFF39;
+    }
+    #prvekartice{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+
+        .kartica{
+            color: white;
+            margin: 10px;
+            padding: 5px;
+            border-radius: 20%;
+            text-align: center;
+            width: 33.3%;
+
+            h3{
+                font-weight: 400;
+            }
+
+            .linija{
+                width: 100px;
+                border-color:  #01D284;
+            }
+        }
+    }
+}
+$zelena: #01D284;
+$pozadina: #0B081D;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  max-width: 100% !important;
+}
+

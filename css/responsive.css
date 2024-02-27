@@ -1,0 +1,214 @@
+@media only screen and (max-width: 1500px){
+    #skillovi{
+        height: 496px;
+    }
+} 
+@media only screen and (max-width: 1200px){
+    #novimain #desnoslika img{
+        width: 400px;
+    }
+    #novimain #levonaslov {
+        width: 40%;
+    }
+    #o-meni #desnideo #prvired i {
+        font-size: 150px;
+    }
+
+    #kontakt{
+        flex-direction: column;
+    }
+    #kontakt #mreze{
+        flex-direction: row;
+        margin-right: 0px;
+    }
+    #skillovi{
+        height: 532px;
+    }
+}
+ @media only screen and (max-width: 992px){
+    header ul{
+        display: none;
+    }
+    #logo{
+        text-align: center;
+        padding-left: 0px !important;
+        margin: 0px auto;
+    }
+
+
+    #novimain{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #novimain #levonaslov {
+        width: 100%;
+        margin-top: 40px;
+        padding: 30px;
+    }
+    #novimain #levonaslov #glavnodugme{
+        text-align: center;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+    #novimain #desnoslika {
+        width: 100%;
+    }
+    #novimain #desnoslika img {
+        width: 400px;
+    }
+
+
+
+
+
+    #o-meni{
+        flex-direction: column;
+    }
+    #o-meni #levideo {
+        width: 80%;
+    }
+    #o-meni #desnideo #prvired i {
+        font-size: 150px;
+    }
+
+
+
+    #skillovi{
+        height: 853px;
+    }
+    #skillovi #prvekartice{
+        flex-direction: column;
+    }
+    #skillovi #prvekartice .kartica {
+        width: 100%;
+    }
+
+    #noviprojekti #drzackartica #drugiredpr{
+        display: none;
+       }
+       #noviprojekti #drzackartica .karticered{
+        flex-direction: column;
+       }
+
+
+
+
+       #futer{
+        margin-top: 173px;
+        height: 900px;
+       }
+       #futer #futerdrzac{
+        flex-direction: column;
+       }
+       #futer #futerdrzac #futerlevo {
+        padding-left: 0px !important;
+        text-align: center;
+       }
+       #futer #futerdrzac #futerdesno{
+        padding-right: 0px !important;
+       }
+
+    
+}
+
+ 
+@media only screen and (max-width: 600px){
+    body{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        max-width: 100% !important;
+    }
+    header ul{
+        display: none;
+    }
+    header {
+        justify-content: center;
+    }
+    #logo{
+        padding-left: 0px;
+        padding: 0px !important;
+        text-align: center;
+    }
+   #desnoslika{
+    display: block;
+    width: 50px;
+   }
+   #novamalaslika{
+    width: 50px;
+   }
+   #novimain #desnoslika img{
+    width: 250px;
+   }
+   #novimain #desnoslika {
+    width: 100%;
+    text-align: center;
+    margin-top: 66px;
+   }
+   #novimain{
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   #novimain #levonaslov {
+    width: 90%;
+    text-align: center;
+   }
+   #glavnodugme{
+    text-align: center;
+    margin: 0px auto;
+   }
+   #o-meni{
+    height: 900px;
+   }
+   #o-meni #desnideo #prvired{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+   }
+   #o-meni #desnideo #prvired i{
+    padding: 105px 0px;
+   }
+   #skillovi #prvekartice .kartica{
+    width: 100%;
+   }
+   #skillovi{
+    height: 900px;
+   }
+
+   #noviprojekti #drzackartica #drugiredpr{
+    display: none;
+   }
+   #noviprojekti #drzackartica .karticered{
+    flex-direction: column;
+   }
+
+   #futer{
+    margin-top: 169px;
+    height: 900px;
+   }
+   #futer #futerdrzac{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0px !important;
+   }
+   #futer #futerdrzac #futerlevo{
+    padding: 0px !important;
+   }
+   #futer #futerdrzac #futerdesno{
+    padding-right: 0px !important;
+    margin-top: 4%;
+   }
+   #futer #futernaslov h2{
+    font-size: 30px;
+   }
+   #donjifuter #ikonicefuter i{
+    font-size: 15px;
+   }
+}

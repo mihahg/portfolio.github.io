@@ -1,0 +1,133 @@
+#futer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    background-color: $pozadina;
+    height: 600px;
+    color: white;
+
+    #futernaslov h2{
+        text-align: center;
+        color: #01D284;
+        font-size: 50px;
+    }
+    hr{
+        width: 250px;
+        border-color: white;
+        text-align: center;
+        margin: 0px auto;
+    }
+    #futerdrzac{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 5%;
+
+        #futerlevo{
+            padding-left: 10%;
+        }
+        #futerdesno{
+            padding-right: 10%;
+        }
+
+        #futerlevo h3{
+            padding: 10px;
+            font-size: 20px;
+        }
+        #futerdesno{
+            #ime, #prezime{
+                &::placeholder{
+                    color: white;
+                }
+                width: 49%;
+                padding: 15px;
+                background-color: rgba(11, 8, 29, 0.66);
+                border-radius: 5px;
+                border-bottom: 1px solid #01D284;
+                color: white;
+                transition: 200ms all;
+            }
+            #email{
+                &::placeholder{
+                    color: white;
+                }
+                width: 100%;
+                padding: 15px;
+                background-color: rgba(11, 8, 29, 0.66);
+                border-radius: 5px;
+                border: none;
+                border-bottom: 1px solid #01D284;
+                color: white;
+                transition: 200ms all;
+            }
+            #poruka{
+                &::placeholder{
+                    color: white;
+                    font-size: 20px;
+                }
+                width: 100%;
+                height: 200px;
+                color: #f2f3f7;
+                padding: 15px;
+                background-color: rgba(11, 8, 29, 0.66);
+                border-radius: 5px;
+                border: none;
+                border-bottom: 1px solid #01D284;
+                color: #f2f3f7;
+                transition: 200ms all;
+            }
+            #submitdugme{
+            margin-top: 20px;
+            margin: 0px auto;
+            align-items: center;
+            text-align: center;
+            background-image: linear-gradient(144deg,#51bd96, #01D284 50%, #8cde87);
+            border: 0;
+            border-radius: 8px;
+            box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            display: flex;
+            font-size: 15px;
+            justify-content: center;
+            line-height: 1em;
+            max-width: 100%;
+            min-width: 100px;
+            padding: 19px 24px;
+            text-decoration: none;
+            cursor: pointer;
+            }
+        }
+    }
+
+}
+#donjifuter{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+    #ikonicefuter i{
+        padding: 10px;
+        &:hover{
+            color: #01D284;
+        }
+    }
+    #ikonicefuter{
+        padding-left: 10%;
+    }
+    #ikonicefuter a{
+        text-decoration: none;
+        color: white;
+    }
+    #copyright{
+        padding-right: 10%;
+    }
+}
