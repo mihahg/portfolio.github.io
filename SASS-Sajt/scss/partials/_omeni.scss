@@ -1,0 +1,25 @@
+#o-meni{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  height: 500px;
+  #levideo{
+    width: 40%;
+    hr{
+      width: 20%;
+    }  
+  }
+  #desnideo{
+    #prvired{
+      i{
+        font-size: 200px;
+        padding: 10px;
+        &:hover{
+          color: green;
+        }
+      }
+    }
+  }
+}
