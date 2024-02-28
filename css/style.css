@@ -203,6 +203,9 @@ header #logo {
   text-decoration: none;
   cursor: pointer;
 }
+#novimain #levonaslov #glavnodugme a {
+  text-decoration: none;
+}
 
 #noviprojekti {
   display: flex;
