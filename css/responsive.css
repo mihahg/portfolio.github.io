@@ -211,4 +211,11 @@
    #donjifuter #ikonicefuter i{
     font-size: 15px;
    }
+   #donjifuter #copyright{
+       display: none;
+   }
+   #donjifuter #ikonicefuter{
+       margin: 0px auto;
+       padding-left: 0px !important;
+   }
 }
