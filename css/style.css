@@ -38,6 +38,7 @@ header #logo {
   padding: 0px;
   box-sizing: border-box;
   max-width: 100% !important;
+  text-decoration: none;
 }
 
 #o-meni {
